@@ -19,7 +19,9 @@
 #include <cstdio>
 #include <ctime>
 
-#include <gtest/gtest_prod.h>
+#define FRIEND_TEST(args...)
+
+//#include <gtest/gtest_prod.h>
 #include <memory>
 #include <string>
 #include <string_view>
